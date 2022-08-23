@@ -32,3 +32,16 @@ const users = [
 ];
 
 // Program 1: create a function and print the user details whose age>=30 (use filter and map)
+/* eslint-disable */
+
+
+users.map((item, index)=> {
+  if(item.age >= 30){
+   console.log(item)
+  }
+})
+
+
+const Filter = users.filter(user => user.age >= 30)
+
+console.log(Filter)

@@ -6,3 +6,12 @@ Program 1:
 
 */
 // start here writing the code for program1
+/* eslint-disable */
+
+const random = Math.floor(Math.random() * 30)
+
+if(random >= 18) {
+    console.log(`Valid Voter with age ${random}`)
+}else {
+    console.log(`Invalid Voter! You are too young ${random}`)
+}
