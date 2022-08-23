@@ -8,3 +8,18 @@ vowel
 
 */
 // start here writing the code for program1
+
+const letter = prompt('Enter a letter');
+
+switch(letter) {
+    case "a":
+    case "e":
+    case "i":
+    case "o":
+    case "u":
+    case "y":
+        console.log('Vowel');
+        break;
+    default:
+        console.log('Consonant');
+}
