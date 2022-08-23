@@ -14,4 +14,4 @@ if(random >= 18) {
     console.log(`Valid Voter with age ${random}`)
 }else {
     console.log(`Invalid Voter! You are too young ${random}`)
-}
+};
