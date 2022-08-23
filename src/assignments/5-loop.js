@@ -21,6 +21,14 @@ sum=8
 */
 // start here writing the code for program2
 
+const num = prompt("Positive number: ");
+let sum = 0;
+for (let i=0; i<num.length; i++) {
+	sum += Number(num[i]);
+}
+console.log(sum);
+
+
 /*
 Program 3: Write a program to print time table of any number.
 
@@ -33,3 +41,10 @@ output example
 
 */
 // start here writing the code for program3
+
+const number = Number(prompt("Number: "));
+
+for (let i=1; i<=12; i++) {
+	const multiply = number * i;
+	 console.log(`${number} x ${i} = ${multiply}`);
+}
