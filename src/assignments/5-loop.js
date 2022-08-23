@@ -9,6 +9,16 @@ etc.
 
 */
 // start here writing the code for program1
+/* eslint-disable */ 
+
+for(let i = 1; i <= 100 ; i++){
+    if(i%3 == 0 ){
+        console.log(i)
+    }  else if(i%5 == 0 ){
+        console.log(i)
+    }
+}
+
 /*
 Program 2: Write a program that read any positive number and display sum of its digit.
 
@@ -20,6 +30,11 @@ sum=8
 
 */
 // start here writing the code for program2
+ for(let number = 0; number <= 125; number++){
+    if(number%2 == 0){
+        console.log(number)
+    }
+ }
 
 /*
 Program 3: Write a program to print time table of any number.
@@ -33,3 +48,8 @@ output example
 
 */
 // start here writing the code for program3
+const number = 3
+for(i = 1; i <= 10; i++){
+    const result = number * i
+    console.log(result);
+}
