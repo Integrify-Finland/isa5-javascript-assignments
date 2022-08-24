@@ -9,7 +9,25 @@ etc.
 
 */
 // start here writing the code for program1
+
+for(let count = 1; count<= 100; count++)
+{
+  if(!(count%3===0 && count%5===0) )
+    {
+      if(count%3===0 || count%5===0)
+
+      {console.log(count);}
+
+    }
+  
+    
+
+}
+
+   
+  
 /*
+
 Program 2: Write a program that read any positive number and display sum of its digit.
 
 Input example
@@ -20,6 +38,21 @@ sum=8
 
 */
 // start here writing the code for program2
+
+
+let sum = 0;
+ let num = 125;
+ while(num!=0)
+ {
+  sum=sum+num%10;
+  num=num/10;
+ }
+ console.log(sum);
+
+    
+
+
+
 
 /*
 Program 3: Write a program to print time table of any number.
@@ -33,3 +66,12 @@ output example
 
 */
 // start here writing the code for program3
+let number = 3;
+let i = 1;
+let result;
+for(i=1; i<=10; i++)
+{ 
+  result = number * i;
+    console.log(`${number} * ${i} = ${result}`);
+    
+}
