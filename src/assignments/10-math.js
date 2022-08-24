@@ -6,3 +6,12 @@ Program 1:
 
 */
 // start here writing the code for program1
+const randNum = Math.random() *30 + 1;
+let voterAge = Math.floor(randNum);
+console.log(voterAge);
+if(voterAge >= 18)
+{
+    console.log(`Valid Voter`);
+}else {
+    console.log(`Invalid Voter`);
+}
