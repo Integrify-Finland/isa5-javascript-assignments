@@ -1,15 +1,28 @@
 
 
+function checkVowel(x){
+    switch(x){
 
-let  CheckLetter = (x) =>{
-
-    if(CheckLetter== "a" || CheckLetter == "e"|| CheckLetter == "i"|| CheckLetter == "o"|| CheckLetter == "u"  ){
-        console.log("Letter Is Vowel")
-    }else if(CheckLetter== "A" || CheckLetter == "E"|| CheckLetter == "I"|| CheckLetter == "O"|| CheckLetter == "U"  ){
-        console.log("Letter Is Vowel")
-    }else{
-        console.log("Letter Is NOT Vowel")
+        case"a":
+        case"e":
+        case"i":
+        case"o":
+        case"u":
+        case"A":
+        case"E":
+        case"I":
+        case"O":
+        case"U":
+        console.log("its a vowel")
+        break;
+        default: console.log("Its a consonant")
+        break;
+        
+    
+    
+    
+    
     }
 }
 
-CheckLetter("a")
+checkVowel("a")
