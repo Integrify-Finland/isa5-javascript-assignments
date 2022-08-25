@@ -8,3 +8,13 @@ convert full name into uppercase
 print the 3rd character from users full name
 */
 // start here writing the code for program1
+
+const firstName = prompt("First Name: ");
+const lastName = prompt("Last Name: ");
+const fullName = firstName + " " + lastName;
+console.log(fullName);
+const nameLength = firstName.length + lastName.length;
+// console.log(nameLength);
+const upperName = fullName.toUpperCase();
+// console.log(upperName);
+console.log(fullName[2]);
