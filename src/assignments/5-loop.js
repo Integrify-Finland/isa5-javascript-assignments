@@ -13,7 +13,7 @@ etc.
 let number = 0;
 
 
-function DisplayNum(){
+function displayNum(){
 
     for(i=0;i>=100;i++){
        if(i % 3 == 0 && i % 5 == 0){
@@ -23,7 +23,7 @@ function DisplayNum(){
     }
 }
 
-DisplayNum()
+displayNum()
 
 /*
 Program 2: Write a program that read any positive number and display sum of its digit.
