@@ -81,4 +81,4 @@ function table(userInput){
     }
 
 }
-table()
+table(3)

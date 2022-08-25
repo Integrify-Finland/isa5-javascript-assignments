@@ -36,12 +36,13 @@ const users = [
   
   
   function personAge() {
-    let userabouve30  = users.map(function (user) {
-         if(user.age >=30 ){
-            console.log(user)
-         }
-
-      });  
+   
+ let userAbove30 = users.map(function(user){
+if(user.age >=30){
+    console.log(user)
+}
+ });
+       
 }
 
 personAge()
