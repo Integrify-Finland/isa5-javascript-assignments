@@ -38,11 +38,12 @@ sum=8
 // start here writing the code for program2
 
 
-let number = 687;
+let numberSum = 687;
 
 function addSum(num){
 
     let sum = 0;
+    
 
 
 
