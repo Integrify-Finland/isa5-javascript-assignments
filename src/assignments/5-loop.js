@@ -38,17 +38,22 @@ sum=8
 // start here writing the code for program2
 
 
-let numberSum = 687;
-
-function addSum(num){
-
+function sumOfArray(array){
     let sum = 0;
     
-
-
-
-
-}
+    array.forEach(element => {
+       
+        sum+=element;
+    
+        
+    });
+    
+    console.log(sum)
+    return sum
+    
+    }
+    
+    sumOfArray([1,2,3,4])
 
 /*
 Program 3: Write a program to print time table of any number.

@@ -1,13 +1,12 @@
-let userInput = parseInt(prompt("enter number"))
+let array =[1,4,2,3];
 
+function minAndMax(){
 
-function table(userInput){
-    for (let i = 1; i <- 10; i++) {
-        
-       result = i * userInput
-        
-        console.log(result)
-    }
+    let minNum = Math.min(...array)
+    let maxNum = Math.max(...array)
 
+    console.log(`MAximum Number is: ${maxNum}`)
+    console.log(`min Number is: ${minNum}`)
 }
-table()
+
+minAndMax()
