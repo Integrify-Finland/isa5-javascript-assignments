@@ -22,11 +22,16 @@ sum=8
 // start here writing the code for program2
 
 const num = prompt("Positive number: ");
-let sum = 0;
-for (let i=0; i<num.length; i++) {
-	sum += Number(num[i]);
+if (num <= 0) {
+	console.log("Must provide positive number.")
 }
-console.log(sum);
+else {
+	let sum = 0;
+	for (let i=0; i<num.length; i++) {
+		sum += Number(num[i]);
+	}
+	console.log(sum);
+}
 
 
 /*

@@ -26,12 +26,27 @@ console.log(`${num1}-${num2}=${sub}`);
 const multiply = num1 * num2;
 console.log(`${num1}*${num2}=${multiply}`);
 
-const divide = (num1 / num2).toFixed(2);
-console.log(`${num1}/${num2}=${divide}`);
+const divide = (num1, num2) => {
+	if (num2 == 0) {
+		console.log("undefined");
+	} else {
+		let answer = num1/num2.toFixed(2);
+		return answer;
+	}
+}
+const num = divide(num1, num2);
+console.log(`${num1}/${num2}=${num}`);
 
-const remain = num1 % num2;
-console.log(`${num1}%${num2}=${remain}`);
-
+const remain = (num1, num2) => {
+	if (num2 == 0) {
+		console.log("undefined");
+	} else {
+		let answer = num1%num2;
+		return answer;
+	}
+}
+const remainder = remain(num1, num2);
+console.log(`${num1}%${num2}=${remainder}`);
 
 /*
 Program2: Write a program that convert the Celsius temperature to Fahrenheit.

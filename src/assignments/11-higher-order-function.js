@@ -33,16 +33,19 @@ const users = [
 
 // Program 1: create a function and print the user details whose age>=30 (use filter and map)
 
-//unsure why map is also needed if the point is to print all the details of those age>=30
 
 const usersOverThirty = (users) => {
-	const overThirty = users.filter(user => {
-		return user.age >= 30;
-	}).map(user => ({
-		id: user.id,
-		name: user.name,
-		country: user.country
-	}));
-	return overThirty;
+	users.map((item) => {
+		if (item.age >= 30){
+			item.id,
+			item.name,
+			item.age,
+			item.country
+			console.log(item);
+		}
+	})
 }
-console.log(usersOverThirty(users));
+
+const overThirtyFilter = (users) => users.filter(item => item.age >= 30);
+const overAge = overThirtyFilter(users);
+console.log(overAge);
