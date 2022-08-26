@@ -9,6 +9,7 @@ etc.
 
 */
 // start here writing the code for program1
+
 /*
 Program 2: Write a program that read any positive number and display sum of its digit.
 
@@ -20,6 +21,7 @@ sum=8
 
 */
 // start here writing the code for program2
+
 
 /*
 Program 3: Write a program to print time table of any number.

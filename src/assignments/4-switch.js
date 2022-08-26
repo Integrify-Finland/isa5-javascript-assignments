@@ -8,3 +8,5 @@ vowel
 
 */
 // start here writing the code for program1
+
+// This is the same as Program 2 in number 3-if-else
