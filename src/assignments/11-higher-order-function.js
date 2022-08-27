@@ -32,3 +32,12 @@ const users = [
 ];
 
 // Program 1: create a function and print the user details whose age>=30 (use filter and map)
+
+const newArray = () => {
+  const usersAbove30 = users.map(function() {
+      return users.filter(users => users.age > 30)[0]
+  })
+  console.log(usersAbove18)
+} 
+
+newArray()  

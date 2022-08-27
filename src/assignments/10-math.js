@@ -6,3 +6,15 @@ Program 1:
 
 */
 // start here writing the code for program1
+const getRandomNumber = Math.floor(Math.random() * 30) + 1
+
+const validVoter = () => {
+    console.log(getRandomNumber)
+    if (getRandomNumber === 18 || getRandomNumber > 18) {
+        console.log("Valid Voter")
+    } else {
+        console.log("Invalid Voter")
+    }    
+}
+
+validVoter()
