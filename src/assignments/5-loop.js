@@ -9,6 +9,10 @@ etc.
 
 */
 // start here writing the code for program1
+for (let i = 1; i < 100; i + 3) {
+    console.log(i)
+}
+
 /*
 Program 2: Write a program that read any positive number and display sum of its digit.
 
@@ -33,3 +37,9 @@ output example
 
 */
 // start here writing the code for program3
+const number = Number(prompt("Enter a number:"))
+
+for(let i = 1; i <= 10; 1++) {
+    const result = i * number
+    console.log(`${number} * ${i} = ${result}`)
+}
