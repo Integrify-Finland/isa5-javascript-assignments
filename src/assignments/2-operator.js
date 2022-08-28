@@ -14,6 +14,23 @@ output example
 */
 // start here writing the code for program1
 
+const task2a = () => {
+    const num1 = Number(prompt("Enter Number 1:"));
+    let num2;
+    do {
+        num2 = Number(prompt("Enter Number 2:"));
+    } while (num2 <= 0);
+
+    let result;
+    
+    alert(`${num1} + ${num2} = ` + (num1 + num2) + `\n
+    ${num1} - ${num2} = ` + (num1 - num2) + `\n
+    ${num1} * ${num2} = ` + (num1 * num2) + `\n
+    ${num1} / ${num2} = ` + (num1 / num2) + `\n
+    ${num1} % ${num2} = ` + (num1 % num2));
+}
+
+
 /*
 Program2: Write a program that convert the Celsius temperature to Fahrenheit.
 
@@ -24,3 +41,12 @@ output example
 Fahrenheit=41
 */
 // start here writing the code for program2
+
+const task2b = () => {
+    const celcius = Number(prompt("Enter Temperature in Celcius \xB0C:"));
+    // Celcius to Fahrenheit 
+    const fahrenheit = celcius * 9 / 5 + 32;
+    
+    // Outputing Temp in F 
+    alert(`${celcius} \xB0C == ${fahrenheit} \xB0F`);
+}

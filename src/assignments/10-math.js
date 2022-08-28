@@ -6,3 +6,13 @@ Program 1:
 
 */
 // start here writing the code for program1
+
+const task10 = () => {
+    let randAge = Math.floor(Math.random()*30 + 1);
+    //console.log(randAge);
+
+    if (randAge >= 18) 
+        alert('Valid Voter')
+    else
+        alert('Invalid Voter')
+}
