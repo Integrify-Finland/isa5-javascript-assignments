@@ -1,3 +1,4 @@
+/* eslint-disable linebreak-style */
 const users = [
   {
     id: 1,
@@ -32,3 +33,10 @@ const users = [
 ];
 
 // Program 1: create a function and print the user details whose age>=30 (use filter and map)
+const getUserLess30 = (usersList) => usersList.filter(
+  (user) => user.age >= 30,
+).map(
+  (user, index) => `User ${index + 1}: ${user.name}, ${user.age} years old, from ${user.country}`,
+);
+
+console.log(getUserLess30(users));
