@@ -24,3 +24,35 @@ output example
 Fahrenheit=41
 */
 // start here writing the code for program2
+
+
+
+function add(a, b) {
+    var add = a + b;
+    return add;
+
+}
+
+function substract(a, b) {
+    var sub = a - b;
+    return sub;
+}
+
+
+function multiply(a, b) {
+    var mul = a * b;
+    return mul;
+}
+
+function divide(a, b) {
+    var divide = a % b;
+    return divide;
+}
+
+console.log(add(10, 20));
+console.log(substract(10, 20));
+console.log(multiply(10, 20));
+console.log(divide(1020));
+
+var total = add(20, 10);
+console.log(total);

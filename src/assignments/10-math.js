@@ -6,3 +6,11 @@ Program 1:
 
 */
 // start here writing the code for program1
+
+let ran = new Random();
+if (ran >= 18) {
+    alert('valid voter')
+} else {
+    alert('Invalid voter')
+}
+console.log(ran)
