@@ -8,8 +8,29 @@ output example
 etc.
 
 */
-// start here writing the code for program1
 /*
+num = prompt('Enter the number')
+for (let i = 1; i < num; i++) {
+    //num[i] = prompt('Enter the number')
+    if (num[i] % 5 === 0 || num[i] % 3 == 0) {
+        console.log(num[i]);
+    }
+    else{
+        return 'wrong number';
+    }
+    // console.log(num[i]); // console.log(num[i]); // console.log(num[
+}
+*/
+// start here writing the code for program1
+
+/*
+for (int i = 1; i < a; i++) {
+if(a[i]%3==0 && a[i]%5==0 )
+document.write(a);
+}
+else {
+    document.write('WRONG');
+}
 Program 2: Write a program that read any positive number and display sum of its digit.
 
 Input example
@@ -19,8 +40,15 @@ output example
 sum=8
 
 */
-// start here writing the code for program2
 
+// start here writing the code for program2
+let sum = 0;
+a = prompt('Enter the positive number')
+while (a > 0) {
+    sum = sum + (a % 10)
+    num = num //10
+    alert(sum)
+}
 /*
 Program 3: Write a program to print time table of any number.
 
@@ -33,3 +61,9 @@ output example
 
 */
 // start here writing the code for program3
+n = prompt('Enter the number')
+for (let i = 0; i <= 20; i++) {
+    table = n * i
+    console.log(table);
+
+}
